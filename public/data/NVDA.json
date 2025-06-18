@@ -1,0 +1,182 @@
+{
+  "name": "NVIDIA Corporation",
+  "price": 875.28,
+  "change": 15.67,
+  "changePercent": 1.82,
+  "volume": "45.8M",
+  "marketCap": "2.15T",
+  "pe": 73.2,
+  "chartData": [
+    { "time": "09:30", "price": 859.6 },
+    { "time": "10:00", "price": 864.2 },
+    { "time": "10:30", "price": 868.9 },
+    { "time": "11:00", "price": 872.1 },
+    { "time": "11:30", "price": 870.5 },
+    { "time": "12:00", "price": 874.3 },
+    { "time": "12:30", "price": 876.8 },
+    { "time": "13:00", "price": 873.4 },
+    { "time": "13:30", "price": 877.9 },
+    { "time": "14:00", "price": 874.6 },
+    { "time": "14:30", "price": 878.2 },
+    { "time": "15:00", "price": 875.28 }
+  ],
+  "volumeData": [
+    { "time": "09:30", "volume": 6.8 },
+    { "time": "10:00", "volume": 9.2 },
+    { "time": "10:30", "volume": 7.5 },
+    { "time": "11:00", "volume": 11.3 },
+    { "time": "11:30", "volume": 8.9 },
+    { "time": "12:00", "volume": 5.4 },
+    { "time": "12:30", "volume": 12.7 },
+    { "time": "13:00", "volume": 10.1 },
+    { "time": "13:30", "volume": 14.6 },
+    { "time": "14:00", "volume": 13.2 },
+    { "time": "14:30", "volume": 16.8 },
+    { "time": "15:00", "volume": 19.4 }
+  ],
+  "monthlyData": [
+    {
+      "averageClose": 495.2,
+      "averageVolume": 58234567,
+      "closeGrowthRate": 0,
+      "volumeGrowthRate": 0,
+      "date": "2023-12"
+    },
+    {
+      "averageClose": 615.8,
+      "averageVolume": 72345678,
+      "closeGrowthRate": 24.36,
+      "volumeGrowthRate": 24.24,
+      "date": "2024-01"
+    },
+    {
+      "averageClose": 788.2,
+      "averageVolume": 89456789,
+      "closeGrowthRate": 27.99,
+      "volumeGrowthRate": 23.64,
+      "date": "2024-02"
+    },
+    {
+      "averageClose": 903.6,
+      "averageVolume": 95678901,
+      "closeGrowthRate": 14.64,
+      "volumeGrowthRate": 6.95,
+      "date": "2024-03"
+    },
+    {
+      "averageClose": 795.4,
+      "averageVolume": 78901234,
+      "closeGrowthRate": -11.97,
+      "volumeGrowthRate": -17.53,
+      "date": "2024-04"
+    },
+    {
+      "averageClose": 1064.7,
+      "averageVolume": 112345678,
+      "closeGrowthRate": 33.85,
+      "volumeGrowthRate": 42.35,
+      "date": "2024-05"
+    },
+    {
+      "averageClose": 1224.4,
+      "averageVolume": 98567890,
+      "closeGrowthRate": 15.0,
+      "volumeGrowthRate": -12.26,
+      "date": "2024-06"
+    },
+    {
+      "averageClose": 1037.9,
+      "averageVolume": 87890123,
+      "closeGrowthRate": -15.24,
+      "volumeGrowthRate": -10.83,
+      "date": "2024-07"
+    },
+    {
+      "averageClose": 1292.3,
+      "averageVolume": 105234567,
+      "closeGrowthRate": 24.51,
+      "volumeGrowthRate": 19.74,
+      "date": "2024-08"
+    },
+    {
+      "averageClose": 1208.9,
+      "averageVolume": 92456789,
+      "closeGrowthRate": -6.45,
+      "volumeGrowthRate": -12.14,
+      "date": "2024-09"
+    },
+    {
+      "averageClose": 1037.2,
+      "averageVolume": 89678901,
+      "closeGrowthRate": -14.2,
+      "volumeGrowthRate": -3.0,
+      "date": "2024-10"
+    },
+    {
+      "averageClose": 1394.5,
+      "averageVolume": 134567890,
+      "closeGrowthRate": 34.45,
+      "volumeGrowthRate": 50.08,
+      "date": "2024-11"
+    },
+    {
+      "averageClose": 875.28,
+      "averageVolume": 98890123,
+      "closeGrowthRate": -37.24,
+      "volumeGrowthRate": -26.52,
+      "date": "2024-12"
+    }
+  ],
+  "weeklyData": [
+    {
+      "averageClose": 1125.4,
+      "averageVolume": 142345678,
+      "closeGrowthRate": -19.29,
+      "volumeGrowthRate": 5.78,
+      "date": "2024-12-02"
+    },
+    {
+      "averageClose": 965.8,
+      "averageVolume": 128567890,
+      "closeGrowthRate": -14.18,
+      "volumeGrowthRate": -9.68,
+      "date": "2024-12-09"
+    },
+    {
+      "averageClose": 892.5,
+      "averageVolume": 115678901,
+      "closeGrowthRate": -7.59,
+      "volumeGrowthRate": -10.03,
+      "date": "2024-12-16"
+    },
+    {
+      "averageClose": 875.28,
+      "averageVolume": 108890123,
+      "closeGrowthRate": -1.93,
+      "volumeGrowthRate": -5.87,
+      "date": "2024-12-23"
+    }
+  ],
+  "biweeklyData": [
+    {
+      "averageClose": 1045.6,
+      "averageVolume": 135456784,
+      "closeGrowthRate": -25.01,
+      "volumeGrowthRate": 0.66,
+      "date": "2024-12-09"
+    },
+    {
+      "averageClose": 883.89,
+      "averageVolume": 112284512,
+      "volumeGrowthRate": -17.11,
+      "closeGrowthRate": -15.46,
+      "date": "2024-12-23"
+    }
+  ],
+  "news": [
+    { "title": "NVIDIA Reports Record Data Center Revenue of $30.8B", "time": "1 hour ago", "source": "Reuters" },
+    { "title": "New AI Chip Architecture Announced at GTC Conference", "time": "3 hours ago", "source": "TechCrunch" },
+    { "title": "NVIDIA Partners with Major Cloud Providers for AI", "time": "6 hours ago", "source": "Bloomberg" },
+    { "title": "Gaming Revenue Shows Strong Recovery in Q4", "time": "12 hours ago", "source": "The Verge" }
+  ]
+}
