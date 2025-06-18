@@ -1,5 +1,5 @@
 {
-  "monthlyData": [
+  "monthly": [
     {
       "averageClose": 143.8381,
       "averageVolume": 8733790,
@@ -2148,14 +2148,14 @@
       "date": "2025-05"
     },
     {
-      "averageClose": 529.6564,
-      "averageVolume": 44503818,
-      "closeGrowthRate": 4.56,
-      "volumeGrowthRate": -5.94,
+      "averageClose": 529.6083,
+      "averageVolume": 44310238,
+      "closeGrowthRate": 4.55,
+      "volumeGrowthRate": -6.35,
       "date": "2025-06"
     }
   ],
-  "weeklyData": [
+  "weekly": [
     {
       "averageClose": 133.32,
       "averageVolume": 7645240,
@@ -11514,14 +11514,14 @@
       "date": "2025-06-09"
     },
     {
-      "averageClose": 534.29,
-      "averageVolume": 37622051,
-      "closeGrowthRate": 0.51,
-      "volumeGrowthRate": -13.7,
+      "averageClose": 531.685,
+      "averageVolume": 39901459,
+      "closeGrowthRate": 0.02,
+      "volumeGrowthRate": -8.47,
       "date": "2025-06-16"
     }
   ],
-  "biweeklyData": [
+  "biweekly": [
     {
       "averageClose": 137.08,
       "averageVolume": 8284100,
@@ -16575,12 +16575,11 @@
       "date": "2025-06-02"
     },
     {
-      "averageClose": 534.29,
-      "averageVolume": 37622051,
-      "closeGrowthRate": 0.96,
-      "volumeGrowthRate": -16.75,
+      "averageClose": 531.685,
+      "averageVolume": 39901459,
+      "closeGrowthRate": 0.47,
+      "volumeGrowthRate": -11.71,
       "date": "2025-06-16"
     }
-  ],
-  "news": []
+  ]
 }

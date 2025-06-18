@@ -8,8 +8,8 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 import { Badge } from "@/components/ui/badge"
 import { Moon, Sun, TrendingUp, TrendingDown } from "lucide-react"
 import { useTheme } from "next-themes"
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar } from "recharts"
-import { MonthlyChangeChart } from "@/components/monthly-change-chart"
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, BarChart, Bar, Brush } from "recharts"
+import { MonthlyChangeChart } from "@/components/monthly-change-chart" // 確保路徑正確
 
 interface StockData {
   name: string
@@ -19,6 +19,8 @@ interface StockData {
   volume: string
   marketCap: string
   pe: number
+  // 這些原始的 chartData 和 volumeData 可能會被新的按時間範圍的數據取代，
+  // 但為了兼容性，我們暫時保留它們，儘管在新的邏輯中可能不再直接使用
   chartData: Array<{ time: string; price: number }>
   volumeData: Array<{ time: string; volume: number }>
   monthlyData: Array<{
@@ -45,13 +47,15 @@ interface StockData {
   news: Array<{ title: string; time: string; source: string }>
 }
 
-const tickers = ["AAPL", "GOOGL", "TSLA", "NVDA", "QQQ", "SPY"]
+const tickers = ["AAPL", "GOOGL", "TSLA", "NVDA", "QQQ", "SPY", "SCHG"]
+type PeriodKey = "monthly" | "weekly" | "biweekly"
 
 export default function StockDashboard() {
   const [selectedTicker, setSelectedTicker] = useState("AAPL")
   const [stockData, setStockData] = useState<StockData | null>(null)
   const [loading, setLoading] = useState(true)
   const { theme, setTheme } = useTheme()
+  const [selectedPeriod, setSelectedPeriod] = useState<PeriodKey>("monthly") // 新增：選定的時間範圍狀態
 
   useEffect(() => {
     const fetchStockData = async () => {
@@ -82,6 +86,28 @@ export default function StockDashboard() {
   }
 
   const isPositive = stockData.change > 0
+
+  // 根據 selectedPeriod 準備 Price Chart 和 Volume Chart 的數據
+  const getChartDataForPeriod = (period: PeriodKey) => {
+    let dataArray: Array<{ date: string; averageClose: number; averageVolume: number }>
+    switch (period) {
+      case "monthly":
+        dataArray = stockData.monthlyData
+        break
+      case "weekly":
+        dataArray = stockData.weeklyData
+        break
+      case "biweekly":
+        dataArray = stockData.biweeklyData
+        break
+      default:
+        dataArray = stockData.monthlyData // 預設為 monthly
+    }
+    // 確保數據按日期排序，以正確繪製圖表
+    return [...dataArray].sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+  }
+
+  const currentPeriodData = getChartDataForPeriod(selectedPeriod)
 
   return (
     <div className="min-h-screen bg-background">
@@ -165,48 +191,80 @@ export default function StockDashboard() {
 
         {/* Charts */}
         <div className="grid gap-6">
-        <div className="grid lg:grid-cols-2 gap-6">
-          <Card>
-            <CardHeader>
-              <CardTitle>Price Chart</CardTitle>
-              <CardDescription>Intraday price movement</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="h-[300px]">
-                <ResponsiveContainer width="100%" height="100%">
-                  <LineChart data={stockData.chartData}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="time" />
-                    <YAxis domain={["dataMin - 1", "dataMax + 1"]} />
-                    <Tooltip />
-                    <Line type="monotone" dataKey="price" stroke={isPositive ? "#16a34a" : "#dc2626"} strokeWidth={2} />
-                  </LineChart>
-                </ResponsiveContainer>
-              </div>
-            </CardContent>
-          </Card>
+          <div className="grid lg:grid-cols-2 gap-6">
+            {/* Price Chart */}
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between">
+                <div>
+                  <CardTitle>Price Chart</CardTitle>
+                  <CardDescription>Price movement over time</CardDescription>
+                </div>
+                {/* 新增時間範圍選擇 */}
+                <Select value={selectedPeriod} onValueChange={(value) => setSelectedPeriod(value as PeriodKey)}>
+                  <SelectTrigger className="w-[120px]">
+                    <SelectValue placeholder="Select Period" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="monthly">Monthly</SelectItem>
+                    <SelectItem value="weekly">Weekly</SelectItem>
+                    <SelectItem value="biweekly">Bi-weekly</SelectItem>
+                  </SelectContent>
+                </Select>
+              </CardHeader>
+              <CardContent>
+                <div className="h-[300px]">
+                  <ResponsiveContainer width="100%" height="100%">
+                    <LineChart data={currentPeriodData}> {/* 使用 currentPeriodData */}
+                      <CartesianGrid strokeDasharray="3 3" />
+                      <XAxis dataKey="date" tickFormatter={(value) => value.slice(5)} /> {/* 使用 date 字段，並格式化顯示月份和日期 */}
+                      <YAxis domain={["dataMin - 1", "dataMax + 1"]} />
+                      <Tooltip />
+                      <Line type="monotone" dataKey="averageClose" stroke={isPositive ? "#16a34a" : "#dc2626"} strokeWidth={2} /> {/* 使用 averageClose */}
+                      <Brush dataKey="date" height={20} stroke="#8884d8" />
+                    </LineChart>
+                  </ResponsiveContainer>
+                </div>
+              </CardContent>
+            </Card>
 
-          <Card>
-            <CardHeader>
-              <CardTitle>Volume Chart</CardTitle>
-              <CardDescription>Trading volume by time</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <div className="h-[300px]">
-                <ResponsiveContainer width="100%" height="100%">
-                  <BarChart data={stockData.volumeData}>
-                    <CartesianGrid strokeDasharray="3 3" />
-                    <XAxis dataKey="time" />
-                    <YAxis />
-                    <Tooltip />
-                    <Bar dataKey="volume" fill="hsl(var(--primary))" />
-                  </BarChart>
-                </ResponsiveContainer>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
+            {/* Volume Chart */}
+            <Card>
+              <CardHeader className="flex flex-row items-center justify-between">
+                <div>
+                  <CardTitle>Volume Chart</CardTitle>
+                  <CardDescription>Trading volume over time</CardDescription>
+                </div>
+                {/* 新增時間範圍選擇 */}
+                <Select value={selectedPeriod} onValueChange={(value) => setSelectedPeriod(value as PeriodKey)}>
+                  <SelectTrigger className="w-[120px]">
+                    <SelectValue placeholder="Select Period" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="monthly">Monthly</SelectItem>
+                    <SelectItem value="weekly">Weekly</SelectItem>
+                    <SelectItem value="biweekly">Bi-weekly</SelectItem>
+                  </SelectContent>
+                </Select>
+              </CardHeader>
+              <CardContent>
+                <div className="h-[300px]">
+                  <ResponsiveContainer width="100%" height="100%">
+                    <BarChart data={currentPeriodData}> {/* 使用 currentPeriodData */}
+                      <CartesianGrid strokeDasharray="3 3" />
+                      <XAxis dataKey="date" tickFormatter={(value) => value.slice(5)} /> {/* 使用 date 字段，並格式化顯示月份和日期 */}
+                      <YAxis />
+                      <Tooltip />
+                      <Bar dataKey="averageVolume" fill="hsl(var(--primary))" /> {/* 使用 averageVolume */}
+                      <Brush dataKey="date" height={20} stroke="#8884d8" />
+                      
+                    </BarChart>
+                  </ResponsiveContainer>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
 
+          {/* Period Change Analysis Chart (保持不變) */}
           <Card>
             <CardHeader>
               <CardTitle>Period Change Analysis</CardTitle>

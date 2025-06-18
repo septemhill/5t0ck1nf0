@@ -2148,10 +2148,10 @@
       "date": "2025-05"
     },
     {
-      "averageClose": 598.5882,
-      "averageVolume": 69828799,
-      "closeGrowthRate": 3.28,
-      "volumeGrowthRate": 4.56,
+      "averageClose": 598.5,
+      "averageVolume": 70860513,
+      "closeGrowthRate": 3.26,
+      "volumeGrowthRate": 6.11,
       "date": "2025-06"
     }
   ],
@@ -11514,10 +11514,10 @@
       "date": "2025-06-09"
     },
     {
-      "averageClose": 602.68,
-      "averageVolume": 79984125,
-      "closeGrowthRate": 0.28,
-      "volumeGrowthRate": 15.4,
+      "averageClose": 600.105,
+      "averageVolume": 81096745,
+      "closeGrowthRate": -0.14,
+      "volumeGrowthRate": 17,
       "date": "2025-06-16"
     }
   ],
@@ -16575,10 +16575,10 @@
       "date": "2025-06-02"
     },
     {
-      "averageClose": 602.68,
-      "averageVolume": 79984125,
-      "closeGrowthRate": 0.75,
-      "volumeGrowthRate": 16.23,
+      "averageClose": 600.105,
+      "averageVolume": 81096745,
+      "closeGrowthRate": 0.32,
+      "volumeGrowthRate": 17.85,
       "date": "2025-06-16"
     }
   ]

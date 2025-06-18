@@ -9,7 +9,7 @@ if (!ALPHAVANTAGE_API_KEY) {
     process.exit(1);
 }
 
-const symbols: string[] = ['QQQ', 'SPY'];
+const symbols: string[] = ['QQQ', 'SPY', 'SCHG'];
 
 const DailyPriceAPI_Base = 'https://www.alphavantage.co/query?function=TIME_SERIES_DAILY';
 
@@ -45173,7 +45173,7 @@ async function priceAPI() {
 }
 
 async function fetchData() {
-    const m: Record<string, Record<string, Statistics[]>> = [];
+    const m: Record<string, Record<string, Statistics[]>> = {};
 
     for (const symbol of symbols) {
         // Construct Daily Price API URL
