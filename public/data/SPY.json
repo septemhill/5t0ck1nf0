@@ -1,5 +1,5 @@
 {
-  "monthly": [
+  "monthlyData": [
     {
       "averageClose": 139.3393,
       "averageVolume": 5954390,
@@ -2155,7 +2155,7 @@
       "date": "2025-06"
     }
   ],
-  "weekly": [
+  "weeklyData": [
     {
       "averageClose": 136.0125,
       "averageVolume": 6616940,
@@ -11521,7 +11521,7 @@
       "date": "2025-06-16"
     }
   ],
-  "biweekly": [
+  "biweeklyData": [
     {
       "averageClose": 137.0734,
       "averageVolume": 6527020,
@@ -16581,5 +16581,6 @@
       "volumeGrowthRate": 17.85,
       "date": "2025-06-16"
     }
-  ]
+  ],
+  "news": []
 }
