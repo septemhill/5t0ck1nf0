@@ -45252,7 +45252,7 @@ function groupByMonthAndAverageStats(data: DailyData): Record<string, Statistics
         const avgVolume = volumes.reduce((sum, val) => sum + val, 0) / volumes.length;
 
         result[month] = {
-            averageClose: parseFloat(avgClose.toFixed(4)),
+            averageClose: parseFloat(avgClose.toFixed(2)),
             averageVolume: Math.round(avgVolume),
         };
     }
