@@ -1,72 +1,80 @@
-# Stock Dashboard
+# qDash - A Modern Dashboard Application
 
-一個現代化的股票資訊儀表板，類似於 Grafana，提供即時股票數據視覺化。
+qDash is a responsive dashboard front-end project built with Next.js, TypeScript, and Tailwind CSS. It features a highly functional and customizable sidebar, and is automatically deployed to GitHub Pages via GitHub Actions. The project also includes a scheduled task for periodically fetching and updating data.
 
-## 功能特色
+## ✨ Features
 
-- 🎯 **多股票支援**: 支援多個股票代碼切換 (AAPL, GOOGL, TSLA)
-- 🌙 **深色/淺色模式**: 完整的主題切換支援
-- 📊 **豐富圖表**: 價格走勢圖和成交量圖表
-- 📱 **響應式設計**: 完美支援手機和桌面設備
-- 📰 **相關新聞**: 顯示選定股票的最新新聞
-- ⚡ **靜態部署**: 可部署到 GitHub Pages
+*   **Responsive Design:** Great user experience on both desktop and mobile devices.
+*   **Collapsible Sidebar:** A highly configurable sidebar supporting multiple modes (fixed, floating, inset) and states (expanded, collapsed, icon-only). See [`/components/ui/sidebar.tsx`](/components/ui/sidebar.tsx) for details.
+*   **Theming:** Easily customize the look and feel using CSS variables.
+*   **Automated Deployment:** Automatically deploys to GitHub Pages when code is pushed to the `main` branch.
+*   **Scheduled Data Updates:** Automatically updates data daily via a scheduled GitHub Actions task.
+*   **Keyboard Shortcuts:** Quickly toggle the sidebar with `Cmd/Ctrl + B`.
 
-## 技術棧
+## 🛠️ Tech Stack
 
-- **框架**: Next.js 14 (App Router)
-- **樣式**: Tailwind CSS + shadcn/ui
-- **圖表**: Recharts
-- **主題**: next-themes
-- **部署**: GitHub Pages
+*   **Framework:** Next.js
+*   **Language:** TypeScript
+*   **Styling:** Tailwind CSS
+*   **UI Components:** shadcn/ui
+*   **Icons:** Lucide React
+*   **Package Manager:** pnpm
 
-## 本地開發
+## 🚀 Getting Started
 
-1. 克隆專案
-\`\`\`bash
-git clone <your-repo-url>
-cd stock-dashboard
-\`\`\`
+Follow these steps to set up the project in your local environment.
 
-2. 安裝依賴
-\`\`\`bash
-npm install
-\`\`\`
+### Prerequisites
 
-3. 啟動開發服務器
-\`\`\`bash
-npm run dev
-\`\`\`
+*   Node.js (v20.x or later)
+*   pnpm (v9.x or later)
 
-4. 打開瀏覽器訪問 `http://localhost:3000`
+### Installation
 
-## 部署到 GitHub Pages
+1.  Clone the repository (remember to replace `your-username/qdash` with your actual repository path):
+    ```bash
+    git clone https://github.com/your-username/qdash.git
+    cd qdash
+    ```
 
-1. 確保您的 GitHub 倉庫名稱為 `stock-dashboard`
-2. 推送代碼到 `main` 分支
-3. GitHub Actions 會自動構建並部署到 GitHub Pages
-4. 在倉庫設置中啟用 GitHub Pages，選擇 `gh-pages` 分支
+2.  Install dependencies:
+    ```bash
+    pnpm install
+    ```
 
-## 自定義
+3.  Set up environment variables:
+    Copy `.env.example` to `.env.local` and fill in the necessary API keys.
+    ```bash
+    cp .env.example .env.local
+    ```
+    The `ALPHAVANTAGE_API_KEY` is required to run the scheduled task (`pnpm run schedule`).
 
-### 添加新股票
+4.  Start the development server:
+    ```bash
+    pnpm run dev
+    ```
 
-在 `app/page.tsx` 中的 `stockData` 對象中添加新的股票數據：
+Open `http://localhost:3000` in your browser to see the result.
 
-\`\`\`typescript
-const stockData = {
-  // 現有股票...
-  MSFT: {
-    name: "Microsoft Corporation",
-    price: 380.00,
-    // ... 其他數據
-  }
-}
-\`\`\`
+## 📜 Available Scripts
 
-### 修改主題
+*   `pnpm dev`: Starts the application in development mode.
+*   `pnpm build`: Builds the application for production.
+*   `pnpm start`: Starts the production server.
+*   `pnpm lint`: Lints the code using ESLint.
+*   `pnpm schedule`: Executes the scheduled data update script.
 
-在 `app/globals.css` 中自定義 CSS 變量來調整主題顏色。
+## 🚢 Deployment
 
-## 許可證
+This project is configured with a GitHub Actions CI/CD workflow (defined in `.github/workflows/deploy.yml`).
 
-MIT License
+*   When new commits are pushed to the `main` branch, it automatically builds and deploys to the `gh-pages` branch.
+*   A daily scheduled job runs the `pnpm run schedule` script to update data. If there are changes, it automatically commits and pushes them, which in turn triggers a new deployment.
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## 📄 License
+
+This project is licensed under the MIT License.
