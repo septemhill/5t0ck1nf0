@@ -94,7 +94,21 @@ export function StockCharts({ stockData, selectedTicker }: StockChartsProps) {
                 <BarChart data={currentPeriodData}>
                   <CartesianGrid strokeDasharray="3 3" />
                   <XAxis dataKey="date" tickFormatter={(value) => value.slice(5)} />
-                  <YAxis />
+                  <YAxis tickFormatter={(value) => {
+                    if (typeof value === 'number') {
+                      if (value >= 1000000000) {
+                        return (value / 1000000000).toFixed(1) + 'B';
+                      } else if (value >= 1000000) {
+                        return (value / 1000000).toFixed(1) + 'M';
+                      } else if (value >= 1000) {
+                        return (value / 1000).toFixed(1) + 'K';
+                      } else {
+                        return value;
+                      }
+                    } else {
+                      return value;
+                    }
+                  }} />
                   <Tooltip />
                   <Bar dataKey="averageVolume" fill="hsl(var(--primary))" />
                   <Brush dataKey="date" height={20} stroke="#8884d8" />

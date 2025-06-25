@@ -1,0 +1,1446 @@
+{
+  "currentPrice": 53.91,
+  "monthlyData": [
+    {
+      "averageClose": 24.96,
+      "averageVolume": 11374,
+      "date": "2023-04"
+    },
+    {
+      "averageClose": 27.1,
+      "averageVolume": 9469,
+      "closeGrowthRate": 8.57,
+      "volumeGrowthRate": -16.75,
+      "date": "2023-05"
+    },
+    {
+      "averageClose": 29.58,
+      "averageVolume": 6604,
+      "closeGrowthRate": 9.15,
+      "volumeGrowthRate": -30.26,
+      "date": "2023-06"
+    },
+    {
+      "averageClose": 30.74,
+      "averageVolume": 3429,
+      "closeGrowthRate": 3.92,
+      "volumeGrowthRate": -48.08,
+      "date": "2023-07"
+    },
+    {
+      "averageClose": 30.57,
+      "averageVolume": 2789,
+      "closeGrowthRate": -0.55,
+      "volumeGrowthRate": -18.66,
+      "date": "2023-08"
+    },
+    {
+      "averageClose": 30.68,
+      "averageVolume": 2952,
+      "closeGrowthRate": 0.36,
+      "volumeGrowthRate": 5.84,
+      "date": "2023-09"
+    },
+    {
+      "averageClose": 30.08,
+      "averageVolume": 20227,
+      "closeGrowthRate": -1.96,
+      "volumeGrowthRate": 585.2,
+      "date": "2023-10"
+    },
+    {
+      "averageClose": 31.9,
+      "averageVolume": 40637,
+      "closeGrowthRate": 6.05,
+      "volumeGrowthRate": 100.9,
+      "date": "2023-11"
+    },
+    {
+      "averageClose": 32.93,
+      "averageVolume": 82030,
+      "closeGrowthRate": 3.23,
+      "volumeGrowthRate": 101.86,
+      "date": "2023-12"
+    },
+    {
+      "averageClose": 33.96,
+      "averageVolume": 154757,
+      "closeGrowthRate": 3.13,
+      "volumeGrowthRate": 88.66,
+      "date": "2024-01"
+    },
+    {
+      "averageClose": 37.1,
+      "averageVolume": 235163,
+      "closeGrowthRate": 9.25,
+      "volumeGrowthRate": 51.96,
+      "date": "2024-02"
+    },
+    {
+      "averageClose": 38.75,
+      "averageVolume": 193785,
+      "closeGrowthRate": 4.45,
+      "volumeGrowthRate": -17.6,
+      "date": "2024-03"
+    },
+    {
+      "averageClose": 38.59,
+      "averageVolume": 225410,
+      "closeGrowthRate": -0.41,
+      "volumeGrowthRate": 16.32,
+      "date": "2024-04"
+    },
+    {
+      "averageClose": 40.6,
+      "averageVolume": 204036,
+      "closeGrowthRate": 5.21,
+      "volumeGrowthRate": -9.48,
+      "date": "2024-05"
+    },
+    {
+      "averageClose": 44.04,
+      "averageVolume": 421482,
+      "closeGrowthRate": 8.47,
+      "volumeGrowthRate": 106.57,
+      "date": "2024-06"
+    },
+    {
+      "averageClose": 46.59,
+      "averageVolume": 1038443,
+      "closeGrowthRate": 5.79,
+      "volumeGrowthRate": 146.38,
+      "date": "2024-07"
+    },
+    {
+      "averageClose": 43.78,
+      "averageVolume": 669544,
+      "closeGrowthRate": -6.03,
+      "volumeGrowthRate": -35.52,
+      "date": "2024-08"
+    },
+    {
+      "averageClose": 45.3,
+      "averageVolume": 692270,
+      "closeGrowthRate": 3.47,
+      "volumeGrowthRate": 3.39,
+      "date": "2024-09"
+    },
+    {
+      "averageClose": 47.62,
+      "averageVolume": 670190,
+      "closeGrowthRate": 5.12,
+      "volumeGrowthRate": -3.19,
+      "date": "2024-10"
+    },
+    {
+      "averageClose": 50.92,
+      "averageVolume": 951236,
+      "closeGrowthRate": 6.93,
+      "volumeGrowthRate": 41.94,
+      "date": "2024-11"
+    },
+    {
+      "averageClose": 55.8,
+      "averageVolume": 2437664,
+      "closeGrowthRate": 9.58,
+      "volumeGrowthRate": 156.26,
+      "date": "2024-12"
+    },
+    {
+      "averageClose": 55.33,
+      "averageVolume": 2355578,
+      "closeGrowthRate": -0.84,
+      "volumeGrowthRate": -3.37,
+      "date": "2025-01"
+    },
+    {
+      "averageClose": 53.98,
+      "averageVolume": 1947693,
+      "closeGrowthRate": -2.44,
+      "volumeGrowthRate": -17.32,
+      "date": "2025-02"
+    },
+    {
+      "averageClose": 47.66,
+      "averageVolume": 3129503,
+      "closeGrowthRate": -11.71,
+      "volumeGrowthRate": 60.68,
+      "date": "2025-03"
+    },
+    {
+      "averageClose": 44.23,
+      "averageVolume": 3755647,
+      "closeGrowthRate": -7.2,
+      "volumeGrowthRate": 20.01,
+      "date": "2025-04"
+    },
+    {
+      "averageClose": 50.57,
+      "averageVolume": 2462348,
+      "closeGrowthRate": 14.33,
+      "volumeGrowthRate": -34.44,
+      "date": "2025-05"
+    },
+    {
+      "averageClose": 53.19,
+      "averageVolume": 2130034,
+      "closeGrowthRate": 5.18,
+      "volumeGrowthRate": -13.5,
+      "date": "2025-06"
+    }
+  ],
+  "weeklyData": [
+    {
+      "averageClose": 24.7308,
+      "averageVolume": 24231,
+      "date": "2023-04-10"
+    },
+    {
+      "averageClose": 24.8917,
+      "averageVolume": 5247,
+      "closeGrowthRate": 0.65,
+      "volumeGrowthRate": -78.35,
+      "date": "2023-04-17"
+    },
+    {
+      "averageClose": 25.224,
+      "averageVolume": 7216,
+      "closeGrowthRate": 1.33,
+      "volumeGrowthRate": 37.53,
+      "date": "2023-04-24"
+    },
+    {
+      "averageClose": 25.8299,
+      "averageVolume": 8699,
+      "closeGrowthRate": 2.4,
+      "volumeGrowthRate": 20.55,
+      "date": "2023-05-01"
+    },
+    {
+      "averageClose": 26.474,
+      "averageVolume": 6434,
+      "closeGrowthRate": 2.49,
+      "volumeGrowthRate": -26.04,
+      "date": "2023-05-08"
+    },
+    {
+      "averageClose": 27.4601,
+      "averageVolume": 12947,
+      "closeGrowthRate": 3.72,
+      "volumeGrowthRate": 101.23,
+      "date": "2023-05-15"
+    },
+    {
+      "averageClose": 27.97,
+      "averageVolume": 9064,
+      "closeGrowthRate": 1.86,
+      "volumeGrowthRate": -29.99,
+      "date": "2023-05-22"
+    },
+    {
+      "averageClose": 29.0388,
+      "averageVolume": 10228,
+      "closeGrowthRate": 3.82,
+      "volumeGrowthRate": 12.84,
+      "date": "2023-05-29"
+    },
+    {
+      "averageClose": 29.063,
+      "averageVolume": 7051,
+      "closeGrowthRate": 0.08,
+      "volumeGrowthRate": -31.06,
+      "date": "2023-06-05"
+    },
+    {
+      "averageClose": 29.7319,
+      "averageVolume": 7086,
+      "closeGrowthRate": 2.3,
+      "volumeGrowthRate": 0.5,
+      "date": "2023-06-12"
+    },
+    {
+      "averageClose": 29.8875,
+      "averageVolume": 5536,
+      "closeGrowthRate": 0.52,
+      "volumeGrowthRate": -21.87,
+      "date": "2023-06-19"
+    },
+    {
+      "averageClose": 29.808,
+      "averageVolume": 5510,
+      "closeGrowthRate": -0.27,
+      "volumeGrowthRate": -0.47,
+      "date": "2023-06-26"
+    },
+    {
+      "averageClose": 30.2518,
+      "averageVolume": 3555,
+      "closeGrowthRate": 1.49,
+      "volumeGrowthRate": -35.48,
+      "date": "2023-07-03"
+    },
+    {
+      "averageClose": 30.474,
+      "averageVolume": 4026,
+      "closeGrowthRate": 0.73,
+      "volumeGrowthRate": 13.25,
+      "date": "2023-07-10"
+    },
+    {
+      "averageClose": 31.0151,
+      "averageVolume": 3567,
+      "closeGrowthRate": 1.78,
+      "volumeGrowthRate": -11.4,
+      "date": "2023-07-17"
+    },
+    {
+      "averageClose": 30.941,
+      "averageVolume": 2910,
+      "closeGrowthRate": -0.24,
+      "volumeGrowthRate": -18.42,
+      "date": "2023-07-24"
+    },
+    {
+      "averageClose": 31.175,
+      "averageVolume": 2988,
+      "closeGrowthRate": 0.76,
+      "volumeGrowthRate": 2.68,
+      "date": "2023-07-31"
+    },
+    {
+      "averageClose": 30.8364,
+      "averageVolume": 2686,
+      "closeGrowthRate": -1.09,
+      "volumeGrowthRate": -10.11,
+      "date": "2023-08-07"
+    },
+    {
+      "averageClose": 30.1946,
+      "averageVolume": 2908,
+      "closeGrowthRate": -2.08,
+      "volumeGrowthRate": 8.27,
+      "date": "2023-08-14"
+    },
+    {
+      "averageClose": 30.092,
+      "averageVolume": 2689,
+      "closeGrowthRate": -0.34,
+      "volumeGrowthRate": -7.53,
+      "date": "2023-08-21"
+    },
+    {
+      "averageClose": 30.8937,
+      "averageVolume": 2444,
+      "closeGrowthRate": 2.66,
+      "volumeGrowthRate": -9.11,
+      "date": "2023-08-28"
+    },
+    {
+      "averageClose": 31.052,
+      "averageVolume": 1350,
+      "closeGrowthRate": 0.51,
+      "volumeGrowthRate": -44.76,
+      "date": "2023-09-04"
+    },
+    {
+      "averageClose": 31.3575,
+      "averageVolume": 3110,
+      "closeGrowthRate": 0.98,
+      "volumeGrowthRate": 130.37,
+      "date": "2023-09-11"
+    },
+    {
+      "averageClose": 30.5348,
+      "averageVolume": 2833,
+      "closeGrowthRate": -2.62,
+      "volumeGrowthRate": -8.91,
+      "date": "2023-09-18"
+    },
+    {
+      "averageClose": 29.744,
+      "averageVolume": 4273,
+      "closeGrowthRate": -2.59,
+      "volumeGrowthRate": 50.83,
+      "date": "2023-09-25"
+    },
+    {
+      "averageClose": 30.3243,
+      "averageVolume": 13510,
+      "closeGrowthRate": 1.95,
+      "volumeGrowthRate": 216.17,
+      "date": "2023-10-02"
+    },
+    {
+      "averageClose": 31.1965,
+      "averageVolume": 8487,
+      "closeGrowthRate": 2.88,
+      "volumeGrowthRate": -37.18,
+      "date": "2023-10-09"
+    },
+    {
+      "averageClose": 30.3,
+      "averageVolume": 30878,
+      "closeGrowthRate": -2.87,
+      "volumeGrowthRate": 263.83,
+      "date": "2023-10-16"
+    },
+    {
+      "averageClose": 28.978,
+      "averageVolume": 30738,
+      "closeGrowthRate": -4.36,
+      "volumeGrowthRate": -0.45,
+      "date": "2023-10-23"
+    },
+    {
+      "averageClose": 29.616,
+      "averageVolume": 20183,
+      "closeGrowthRate": 2.2,
+      "volumeGrowthRate": -34.34,
+      "date": "2023-10-30"
+    },
+    {
+      "averageClose": 31.2077,
+      "averageVolume": 21278,
+      "closeGrowthRate": 5.37,
+      "volumeGrowthRate": 5.43,
+      "date": "2023-11-06"
+    },
+    {
+      "averageClose": 32.332,
+      "averageVolume": 58182,
+      "closeGrowthRate": 3.6,
+      "volumeGrowthRate": 173.44,
+      "date": "2023-11-13"
+    },
+    {
+      "averageClose": 32.845,
+      "averageVolume": 38980,
+      "closeGrowthRate": 1.59,
+      "volumeGrowthRate": -33,
+      "date": "2023-11-20"
+    },
+    {
+      "averageClose": 32.54,
+      "averageVolume": 53248,
+      "closeGrowthRate": -0.93,
+      "volumeGrowthRate": 36.6,
+      "date": "2023-11-27"
+    },
+    {
+      "averageClose": 32.146,
+      "averageVolume": 69351,
+      "closeGrowthRate": -1.21,
+      "volumeGrowthRate": 30.24,
+      "date": "2023-12-04"
+    },
+    {
+      "averageClose": 32.636,
+      "averageVolume": 83704,
+      "closeGrowthRate": 1.52,
+      "volumeGrowthRate": 20.7,
+      "date": "2023-12-11"
+    },
+    {
+      "averageClose": 33.57,
+      "averageVolume": 97074,
+      "closeGrowthRate": 2.86,
+      "volumeGrowthRate": 15.97,
+      "date": "2023-12-18"
+    },
+    {
+      "averageClose": 33.675,
+      "averageVolume": 87469,
+      "closeGrowthRate": 0.31,
+      "volumeGrowthRate": -9.89,
+      "date": "2023-12-25"
+    },
+    {
+      "averageClose": 32.46,
+      "averageVolume": 89763,
+      "closeGrowthRate": -3.61,
+      "volumeGrowthRate": 2.62,
+      "date": "2024-01-01"
+    },
+    {
+      "averageClose": 33.66,
+      "averageVolume": 163540,
+      "closeGrowthRate": 3.7,
+      "volumeGrowthRate": 82.19,
+      "date": "2024-01-08"
+    },
+    {
+      "averageClose": 34.02,
+      "averageVolume": 111140,
+      "closeGrowthRate": 1.07,
+      "volumeGrowthRate": -32.04,
+      "date": "2024-01-15"
+    },
+    {
+      "averageClose": 34.844,
+      "averageVolume": 217619,
+      "closeGrowthRate": 2.42,
+      "volumeGrowthRate": 95.81,
+      "date": "2024-01-22"
+    },
+    {
+      "averageClose": 35.168,
+      "averageVolume": 216829,
+      "closeGrowthRate": 0.93,
+      "volumeGrowthRate": -0.36,
+      "date": "2024-01-29"
+    },
+    {
+      "averageClose": 36.868,
+      "averageVolume": 212397,
+      "closeGrowthRate": 4.83,
+      "volumeGrowthRate": -2.04,
+      "date": "2024-02-05"
+    },
+    {
+      "averageClose": 37.144,
+      "averageVolume": 260325,
+      "closeGrowthRate": 0.75,
+      "volumeGrowthRate": 22.57,
+      "date": "2024-02-12"
+    },
+    {
+      "averageClose": 37.245,
+      "averageVolume": 287914,
+      "closeGrowthRate": 0.27,
+      "volumeGrowthRate": 10.6,
+      "date": "2024-02-19"
+    },
+    {
+      "averageClose": 38.07,
+      "averageVolume": 183687,
+      "closeGrowthRate": 2.22,
+      "volumeGrowthRate": -36.2,
+      "date": "2024-02-26"
+    },
+    {
+      "averageClose": 38.212,
+      "averageVolume": 213358,
+      "closeGrowthRate": 0.37,
+      "volumeGrowthRate": 16.15,
+      "date": "2024-03-04"
+    },
+    {
+      "averageClose": 38.318,
+      "averageVolume": 124377,
+      "closeGrowthRate": 0.28,
+      "volumeGrowthRate": -41.71,
+      "date": "2024-03-11"
+    },
+    {
+      "averageClose": 39.244,
+      "averageVolume": 253405,
+      "closeGrowthRate": 2.42,
+      "volumeGrowthRate": 103.74,
+      "date": "2024-03-18"
+    },
+    {
+      "averageClose": 39.3525,
+      "averageVolume": 161474,
+      "closeGrowthRate": 0.28,
+      "volumeGrowthRate": -36.28,
+      "date": "2024-03-25"
+    },
+    {
+      "averageClose": 39.048,
+      "averageVolume": 122365,
+      "closeGrowthRate": -0.77,
+      "volumeGrowthRate": -24.22,
+      "date": "2024-04-01"
+    },
+    {
+      "averageClose": 39.618,
+      "averageVolume": 113895,
+      "closeGrowthRate": 1.46,
+      "volumeGrowthRate": -6.92,
+      "date": "2024-04-08"
+    },
+    {
+      "averageClose": 37.882,
+      "averageVolume": 424907,
+      "closeGrowthRate": -4.38,
+      "volumeGrowthRate": 273.07,
+      "date": "2024-04-15"
+    },
+    {
+      "averageClose": 37.744,
+      "averageVolume": 232689,
+      "closeGrowthRate": -0.36,
+      "volumeGrowthRate": -45.24,
+      "date": "2024-04-22"
+    },
+    {
+      "averageClose": 38.918,
+      "averageVolume": 241789,
+      "closeGrowthRate": 3.11,
+      "volumeGrowthRate": 3.91,
+      "date": "2024-04-29"
+    },
+    {
+      "averageClose": 40.08,
+      "averageVolume": 213231,
+      "closeGrowthRate": 2.99,
+      "volumeGrowthRate": -11.81,
+      "date": "2024-05-06"
+    },
+    {
+      "averageClose": 40.53,
+      "averageVolume": 173597,
+      "closeGrowthRate": 1.12,
+      "volumeGrowthRate": -18.59,
+      "date": "2024-05-13"
+    },
+    {
+      "averageClose": 41.214,
+      "averageVolume": 169990,
+      "closeGrowthRate": 1.69,
+      "volumeGrowthRate": -2.08,
+      "date": "2024-05-20"
+    },
+    {
+      "averageClose": 41.785,
+      "averageVolume": 246371,
+      "closeGrowthRate": 1.39,
+      "volumeGrowthRate": 44.93,
+      "date": "2024-05-27"
+    },
+    {
+      "averageClose": 42.528,
+      "averageVolume": 350106,
+      "closeGrowthRate": 1.78,
+      "volumeGrowthRate": 42.11,
+      "date": "2024-06-03"
+    },
+    {
+      "averageClose": 43.962,
+      "averageVolume": 337591,
+      "closeGrowthRate": 3.37,
+      "volumeGrowthRate": -3.57,
+      "date": "2024-06-10"
+    },
+    {
+      "averageClose": 44.7475,
+      "averageVolume": 470154,
+      "closeGrowthRate": 1.79,
+      "volumeGrowthRate": 39.27,
+      "date": "2024-06-17"
+    },
+    {
+      "averageClose": 45.05,
+      "averageVolume": 537810,
+      "closeGrowthRate": 0.68,
+      "volumeGrowthRate": 14.39,
+      "date": "2024-06-24"
+    },
+    {
+      "averageClose": 47.5125,
+      "averageVolume": 1201413,
+      "closeGrowthRate": 5.47,
+      "volumeGrowthRate": 123.39,
+      "date": "2024-07-01"
+    },
+    {
+      "averageClose": 48.704,
+      "averageVolume": 1492187,
+      "closeGrowthRate": 2.51,
+      "volumeGrowthRate": 24.2,
+      "date": "2024-07-08"
+    },
+    {
+      "averageClose": 46.812,
+      "averageVolume": 791001,
+      "closeGrowthRate": -3.88,
+      "volumeGrowthRate": -46.99,
+      "date": "2024-07-15"
+    },
+    {
+      "averageClose": 44.932,
+      "averageVolume": 886000,
+      "closeGrowthRate": -4.02,
+      "volumeGrowthRate": 12.01,
+      "date": "2024-07-22"
+    },
+    {
+      "averageClose": 43.854,
+      "averageVolume": 913593,
+      "closeGrowthRate": -2.4,
+      "volumeGrowthRate": 3.11,
+      "date": "2024-07-29"
+    },
+    {
+      "averageClose": 41.536,
+      "averageVolume": 745279,
+      "closeGrowthRate": -5.29,
+      "volumeGrowthRate": -18.42,
+      "date": "2024-08-05"
+    },
+    {
+      "averageClose": 43.948,
+      "averageVolume": 510960,
+      "closeGrowthRate": 5.81,
+      "volumeGrowthRate": -31.44,
+      "date": "2024-08-12"
+    },
+    {
+      "averageClose": 45.396,
+      "averageVolume": 652679,
+      "closeGrowthRate": 3.29,
+      "volumeGrowthRate": 27.74,
+      "date": "2024-08-19"
+    },
+    {
+      "averageClose": 44.434,
+      "averageVolume": 562313,
+      "closeGrowthRate": -2.12,
+      "volumeGrowthRate": -13.85,
+      "date": "2024-08-26"
+    },
+    {
+      "averageClose": 43.14,
+      "averageVolume": 760753,
+      "closeGrowthRate": -2.91,
+      "volumeGrowthRate": 35.29,
+      "date": "2024-09-02"
+    },
+    {
+      "averageClose": 44.252,
+      "averageVolume": 726128,
+      "closeGrowthRate": 2.58,
+      "volumeGrowthRate": -4.55,
+      "date": "2024-09-09"
+    },
+    {
+      "averageClose": 45.65,
+      "averageVolume": 683897,
+      "closeGrowthRate": 3.16,
+      "volumeGrowthRate": -5.82,
+      "date": "2024-09-16"
+    },
+    {
+      "averageClose": 47.244,
+      "averageVolume": 654419,
+      "closeGrowthRate": 3.49,
+      "volumeGrowthRate": -4.31,
+      "date": "2024-09-23"
+    },
+    {
+      "averageClose": 47.112,
+      "averageVolume": 580731,
+      "closeGrowthRate": -0.28,
+      "volumeGrowthRate": -11.26,
+      "date": "2024-09-30"
+    },
+    {
+      "averageClose": 47.194,
+      "averageVolume": 519931,
+      "closeGrowthRate": 0.17,
+      "volumeGrowthRate": -10.47,
+      "date": "2024-10-07"
+    },
+    {
+      "averageClose": 47.268,
+      "averageVolume": 457449,
+      "closeGrowthRate": 0.16,
+      "volumeGrowthRate": -12.02,
+      "date": "2024-10-14"
+    },
+    {
+      "averageClose": 47.99,
+      "averageVolume": 804690,
+      "closeGrowthRate": 1.53,
+      "volumeGrowthRate": 75.91,
+      "date": "2024-10-21"
+    },
+    {
+      "averageClose": 48.614,
+      "averageVolume": 981174,
+      "closeGrowthRate": 1.3,
+      "volumeGrowthRate": 21.93,
+      "date": "2024-10-28"
+    },
+    {
+      "averageClose": 50.006,
+      "averageVolume": 1009564,
+      "closeGrowthRate": 2.86,
+      "volumeGrowthRate": 2.89,
+      "date": "2024-11-04"
+    },
+    {
+      "averageClose": 51.702,
+      "averageVolume": 1043072,
+      "closeGrowthRate": 3.39,
+      "volumeGrowthRate": 3.32,
+      "date": "2024-11-11"
+    },
+    {
+      "averageClose": 51.388,
+      "averageVolume": 936733,
+      "closeGrowthRate": -0.61,
+      "volumeGrowthRate": -10.19,
+      "date": "2024-11-18"
+    },
+    {
+      "averageClose": 51.245,
+      "averageVolume": 813135,
+      "closeGrowthRate": -0.28,
+      "volumeGrowthRate": -13.19,
+      "date": "2024-11-25"
+    },
+    {
+      "averageClose": 53.77,
+      "averageVolume": 1307332,
+      "closeGrowthRate": 4.93,
+      "volumeGrowthRate": 60.78,
+      "date": "2024-12-02"
+    },
+    {
+      "averageClose": 56.16,
+      "averageVolume": 2839602,
+      "closeGrowthRate": 4.44,
+      "volumeGrowthRate": 117.21,
+      "date": "2024-12-09"
+    },
+    {
+      "averageClose": 56.722,
+      "averageVolume": 3091710,
+      "closeGrowthRate": 1,
+      "volumeGrowthRate": 8.88,
+      "date": "2024-12-16"
+    },
+    {
+      "averageClose": 57.21,
+      "averageVolume": 2606337,
+      "closeGrowthRate": 0.86,
+      "volumeGrowthRate": -15.7,
+      "date": "2024-12-23"
+    },
+    {
+      "averageClose": 54.8275,
+      "averageVolume": 2366274,
+      "closeGrowthRate": -4.16,
+      "volumeGrowthRate": -9.21,
+      "date": "2024-12-30"
+    },
+    {
+      "averageClose": 55.3075,
+      "averageVolume": 2583818,
+      "closeGrowthRate": 0.88,
+      "volumeGrowthRate": 9.19,
+      "date": "2025-01-06"
+    },
+    {
+      "averageClose": 54.616,
+      "averageVolume": 2393409,
+      "closeGrowthRate": -1.25,
+      "volumeGrowthRate": -7.37,
+      "date": "2025-01-13"
+    },
+    {
+      "averageClose": 56.2275,
+      "averageVolume": 1958891,
+      "closeGrowthRate": 2.95,
+      "volumeGrowthRate": -18.15,
+      "date": "2025-01-20"
+    },
+    {
+      "averageClose": 55.544,
+      "averageVolume": 2416193,
+      "closeGrowthRate": -1.22,
+      "volumeGrowthRate": 23.34,
+      "date": "2025-01-27"
+    },
+    {
+      "averageClose": 55,
+      "averageVolume": 2108001,
+      "closeGrowthRate": -0.98,
+      "volumeGrowthRate": -12.76,
+      "date": "2025-02-03"
+    },
+    {
+      "averageClose": 54.814,
+      "averageVolume": 1599418,
+      "closeGrowthRate": -0.34,
+      "volumeGrowthRate": -24.13,
+      "date": "2025-02-10"
+    },
+    {
+      "averageClose": 54.7475,
+      "averageVolume": 1603507,
+      "closeGrowthRate": -0.12,
+      "volumeGrowthRate": 0.26,
+      "date": "2025-02-17"
+    },
+    {
+      "averageClose": 51.524,
+      "averageVolume": 2411009,
+      "closeGrowthRate": -5.89,
+      "volumeGrowthRate": 50.36,
+      "date": "2025-02-24"
+    },
+    {
+      "averageClose": 49.322,
+      "averageVolume": 2949923,
+      "closeGrowthRate": -4.27,
+      "volumeGrowthRate": 22.35,
+      "date": "2025-03-03"
+    },
+    {
+      "averageClose": 46.88,
+      "averageVolume": 3394405,
+      "closeGrowthRate": -4.95,
+      "volumeGrowthRate": 15.07,
+      "date": "2025-03-10"
+    },
+    {
+      "averageClose": 46.782,
+      "averageVolume": 2934130,
+      "closeGrowthRate": -0.21,
+      "volumeGrowthRate": -13.56,
+      "date": "2025-03-17"
+    },
+    {
+      "averageClose": 48.008,
+      "averageVolume": 3144906,
+      "closeGrowthRate": 2.62,
+      "volumeGrowthRate": 7.18,
+      "date": "2025-03-24"
+    },
+    {
+      "averageClose": 45.006,
+      "averageVolume": 4266238,
+      "closeGrowthRate": -6.25,
+      "volumeGrowthRate": 35.66,
+      "date": "2025-03-31"
+    },
+    {
+      "averageClose": 43.454,
+      "averageVolume": 6077875,
+      "closeGrowthRate": -3.45,
+      "volumeGrowthRate": 42.46,
+      "date": "2025-04-07"
+    },
+    {
+      "averageClose": 43.67,
+      "averageVolume": 2566192,
+      "closeGrowthRate": 0.5,
+      "volumeGrowthRate": -57.78,
+      "date": "2025-04-14"
+    },
+    {
+      "averageClose": 43.782,
+      "averageVolume": 2957185,
+      "closeGrowthRate": 0.26,
+      "volumeGrowthRate": 15.24,
+      "date": "2025-04-21"
+    },
+    {
+      "averageClose": 46.876,
+      "averageVolume": 2528718,
+      "closeGrowthRate": 7.07,
+      "volumeGrowthRate": -14.49,
+      "date": "2025-04-28"
+    },
+    {
+      "averageClose": 47.444,
+      "averageVolume": 1712320,
+      "closeGrowthRate": 1.21,
+      "volumeGrowthRate": -32.29,
+      "date": "2025-05-05"
+    },
+    {
+      "averageClose": 51.962,
+      "averageVolume": 2828446,
+      "closeGrowthRate": 9.52,
+      "volumeGrowthRate": 65.18,
+      "date": "2025-05-12"
+    },
+    {
+      "averageClose": 51.74,
+      "averageVolume": 2301945,
+      "closeGrowthRate": -0.43,
+      "volumeGrowthRate": -18.61,
+      "date": "2025-05-19"
+    },
+    {
+      "averageClose": 52.6875,
+      "averageVolume": 2638057,
+      "closeGrowthRate": 1.83,
+      "volumeGrowthRate": 14.6,
+      "date": "2025-05-26"
+    },
+    {
+      "averageClose": 52.56,
+      "averageVolume": 2423982,
+      "closeGrowthRate": -0.24,
+      "volumeGrowthRate": -8.11,
+      "date": "2025-06-02"
+    },
+    {
+      "averageClose": 53.494,
+      "averageVolume": 2312274,
+      "closeGrowthRate": 1.78,
+      "volumeGrowthRate": -4.61,
+      "date": "2025-06-09"
+    },
+    {
+      "averageClose": 53.415,
+      "averageVolume": 1493879,
+      "closeGrowthRate": -0.15,
+      "volumeGrowthRate": -35.39,
+      "date": "2025-06-16"
+    },
+    {
+      "averageClose": 53.91,
+      "averageVolume": 2293720,
+      "closeGrowthRate": 0.93,
+      "volumeGrowthRate": 53.54,
+      "date": "2025-06-23"
+    }
+  ],
+  "biweeklyData": [
+    {
+      "averageClose": 24.7308,
+      "averageVolume": 24231,
+      "date": "2023-04-03"
+    },
+    {
+      "averageClose": 25.0579,
+      "averageVolume": 6232,
+      "closeGrowthRate": 1.32,
+      "volumeGrowthRate": -74.28,
+      "date": "2023-04-17"
+    },
+    {
+      "averageClose": 26.152,
+      "averageVolume": 7567,
+      "closeGrowthRate": 4.37,
+      "volumeGrowthRate": 21.42,
+      "date": "2023-05-01"
+    },
+    {
+      "averageClose": 27.715,
+      "averageVolume": 11005,
+      "closeGrowthRate": 5.98,
+      "volumeGrowthRate": 45.43,
+      "date": "2023-05-15"
+    },
+    {
+      "averageClose": 29.0388,
+      "averageVolume": 10228,
+      "closeGrowthRate": 4.78,
+      "volumeGrowthRate": -7.06,
+      "date": "2023-05-29"
+    },
+    {
+      "averageClose": 29.3974,
+      "averageVolume": 7068,
+      "closeGrowthRate": 1.23,
+      "volumeGrowthRate": -30.9,
+      "date": "2023-06-05"
+    },
+    {
+      "averageClose": 29.8433,
+      "averageVolume": 5521,
+      "closeGrowthRate": 1.52,
+      "volumeGrowthRate": -21.89,
+      "date": "2023-06-19"
+    },
+    {
+      "averageClose": 30.3753,
+      "averageVolume": 3816,
+      "closeGrowthRate": 1.78,
+      "volumeGrowthRate": -30.88,
+      "date": "2023-07-03"
+    },
+    {
+      "averageClose": 30.9781,
+      "averageVolume": 3238,
+      "closeGrowthRate": 1.98,
+      "volumeGrowthRate": -15.15,
+      "date": "2023-07-17"
+    },
+    {
+      "averageClose": 31.0057,
+      "averageVolume": 2837,
+      "closeGrowthRate": 0.09,
+      "volumeGrowthRate": -12.38,
+      "date": "2023-07-31"
+    },
+    {
+      "averageClose": 30.1433,
+      "averageVolume": 2798,
+      "closeGrowthRate": -2.78,
+      "volumeGrowthRate": -1.37,
+      "date": "2023-08-14"
+    },
+    {
+      "averageClose": 30.8937,
+      "averageVolume": 2444,
+      "closeGrowthRate": 2.49,
+      "volumeGrowthRate": -12.65,
+      "date": "2023-08-28"
+    },
+    {
+      "averageClose": 31.2217,
+      "averageVolume": 2328,
+      "closeGrowthRate": 1.06,
+      "volumeGrowthRate": -4.75,
+      "date": "2023-09-04"
+    },
+    {
+      "averageClose": 30.1394,
+      "averageVolume": 3553,
+      "closeGrowthRate": -3.47,
+      "volumeGrowthRate": 52.62,
+      "date": "2023-09-18"
+    },
+    {
+      "averageClose": 30.7604,
+      "averageVolume": 10999,
+      "closeGrowthRate": 2.06,
+      "volumeGrowthRate": 209.57,
+      "date": "2023-10-02"
+    },
+    {
+      "averageClose": 29.639,
+      "averageVolume": 30808,
+      "closeGrowthRate": -3.65,
+      "volumeGrowthRate": 180.1,
+      "date": "2023-10-16"
+    },
+    {
+      "averageClose": 29.616,
+      "averageVolume": 20183,
+      "closeGrowthRate": -0.08,
+      "volumeGrowthRate": -34.49,
+      "date": "2023-10-30"
+    },
+    {
+      "averageClose": 31.7699,
+      "averageVolume": 39730,
+      "closeGrowthRate": 7.27,
+      "volumeGrowthRate": 96.85,
+      "date": "2023-11-06"
+    },
+    {
+      "averageClose": 32.6756,
+      "averageVolume": 46907,
+      "closeGrowthRate": 2.85,
+      "volumeGrowthRate": 18.06,
+      "date": "2023-11-20"
+    },
+    {
+      "averageClose": 32.391,
+      "averageVolume": 76527,
+      "closeGrowthRate": -0.87,
+      "volumeGrowthRate": 63.15,
+      "date": "2023-12-04"
+    },
+    {
+      "averageClose": 33.6167,
+      "averageVolume": 92805,
+      "closeGrowthRate": 3.78,
+      "volumeGrowthRate": 21.27,
+      "date": "2023-12-18"
+    },
+    {
+      "averageClose": 33.1267,
+      "averageVolume": 130750,
+      "closeGrowthRate": -1.46,
+      "volumeGrowthRate": 40.89,
+      "date": "2024-01-01"
+    },
+    {
+      "averageClose": 34.4778,
+      "averageVolume": 170295,
+      "closeGrowthRate": 4.08,
+      "volumeGrowthRate": 30.24,
+      "date": "2024-01-15"
+    },
+    {
+      "averageClose": 35.168,
+      "averageVolume": 216829,
+      "closeGrowthRate": 2,
+      "volumeGrowthRate": 27.33,
+      "date": "2024-01-29"
+    },
+    {
+      "averageClose": 37.006,
+      "averageVolume": 236361,
+      "closeGrowthRate": 5.23,
+      "volumeGrowthRate": 9.01,
+      "date": "2024-02-05"
+    },
+    {
+      "averageClose": 37.7033,
+      "averageVolume": 230010,
+      "closeGrowthRate": 1.88,
+      "volumeGrowthRate": -2.69,
+      "date": "2024-02-19"
+    },
+    {
+      "averageClose": 38.265,
+      "averageVolume": 168868,
+      "closeGrowthRate": 1.49,
+      "volumeGrowthRate": -26.58,
+      "date": "2024-03-04"
+    },
+    {
+      "averageClose": 39.2922,
+      "averageVolume": 212547,
+      "closeGrowthRate": 2.68,
+      "volumeGrowthRate": 25.87,
+      "date": "2024-03-18"
+    },
+    {
+      "averageClose": 39.333,
+      "averageVolume": 118130,
+      "closeGrowthRate": 0.1,
+      "volumeGrowthRate": -44.42,
+      "date": "2024-04-01"
+    },
+    {
+      "averageClose": 37.813,
+      "averageVolume": 328798,
+      "closeGrowthRate": -3.86,
+      "volumeGrowthRate": 178.34,
+      "date": "2024-04-15"
+    },
+    {
+      "averageClose": 38.918,
+      "averageVolume": 241789,
+      "closeGrowthRate": 2.92,
+      "volumeGrowthRate": -26.46,
+      "date": "2024-04-29"
+    },
+    {
+      "averageClose": 40.305,
+      "averageVolume": 193414,
+      "closeGrowthRate": 3.56,
+      "volumeGrowthRate": -20.01,
+      "date": "2024-05-06"
+    },
+    {
+      "averageClose": 41.4678,
+      "averageVolume": 203937,
+      "closeGrowthRate": 2.89,
+      "volumeGrowthRate": 5.44,
+      "date": "2024-05-20"
+    },
+    {
+      "averageClose": 43.245,
+      "averageVolume": 343849,
+      "closeGrowthRate": 4.29,
+      "volumeGrowthRate": 68.61,
+      "date": "2024-06-03"
+    },
+    {
+      "averageClose": 44.9156,
+      "averageVolume": 507741,
+      "closeGrowthRate": 3.86,
+      "volumeGrowthRate": 47.66,
+      "date": "2024-06-17"
+    },
+    {
+      "averageClose": 48.1744,
+      "averageVolume": 1362954,
+      "closeGrowthRate": 7.26,
+      "volumeGrowthRate": 168.43,
+      "date": "2024-07-01"
+    },
+    {
+      "averageClose": 45.872,
+      "averageVolume": 838500,
+      "closeGrowthRate": -4.78,
+      "volumeGrowthRate": -38.48,
+      "date": "2024-07-15"
+    },
+    {
+      "averageClose": 43.854,
+      "averageVolume": 913593,
+      "closeGrowthRate": -4.4,
+      "volumeGrowthRate": 8.96,
+      "date": "2024-07-29"
+    },
+    {
+      "averageClose": 42.742,
+      "averageVolume": 628120,
+      "closeGrowthRate": -2.54,
+      "volumeGrowthRate": -31.25,
+      "date": "2024-08-05"
+    },
+    {
+      "averageClose": 44.915,
+      "averageVolume": 607496,
+      "closeGrowthRate": 5.08,
+      "volumeGrowthRate": -3.28,
+      "date": "2024-08-19"
+    },
+    {
+      "averageClose": 43.7578,
+      "averageVolume": 741517,
+      "closeGrowthRate": -2.58,
+      "volumeGrowthRate": 22.06,
+      "date": "2024-09-02"
+    },
+    {
+      "averageClose": 46.447,
+      "averageVolume": 669158,
+      "closeGrowthRate": 6.15,
+      "volumeGrowthRate": -9.76,
+      "date": "2024-09-16"
+    },
+    {
+      "averageClose": 47.153,
+      "averageVolume": 550331,
+      "closeGrowthRate": 1.52,
+      "volumeGrowthRate": -17.76,
+      "date": "2024-09-30"
+    },
+    {
+      "averageClose": 47.629,
+      "averageVolume": 631070,
+      "closeGrowthRate": 1.01,
+      "volumeGrowthRate": 14.67,
+      "date": "2024-10-14"
+    },
+    {
+      "averageClose": 48.614,
+      "averageVolume": 981174,
+      "closeGrowthRate": 2.07,
+      "volumeGrowthRate": 55.48,
+      "date": "2024-10-28"
+    },
+    {
+      "averageClose": 50.854,
+      "averageVolume": 1026318,
+      "closeGrowthRate": 4.61,
+      "volumeGrowthRate": 4.6,
+      "date": "2024-11-04"
+    },
+    {
+      "averageClose": 51.3244,
+      "averageVolume": 881800,
+      "closeGrowthRate": 0.93,
+      "volumeGrowthRate": -14.08,
+      "date": "2024-11-18"
+    },
+    {
+      "averageClose": 54.965,
+      "averageVolume": 2073467,
+      "closeGrowthRate": 7.09,
+      "volumeGrowthRate": 135.14,
+      "date": "2024-12-02"
+    },
+    {
+      "averageClose": 56.9389,
+      "averageVolume": 2875988,
+      "closeGrowthRate": 3.59,
+      "volumeGrowthRate": 38.7,
+      "date": "2024-12-16"
+    },
+    {
+      "averageClose": 54.8275,
+      "averageVolume": 2366274,
+      "closeGrowthRate": -3.71,
+      "volumeGrowthRate": -17.72,
+      "date": "2024-12-30"
+    },
+    {
+      "averageClose": 54.9233,
+      "averageVolume": 2478036,
+      "closeGrowthRate": 0.17,
+      "volumeGrowthRate": 4.72,
+      "date": "2025-01-06"
+    },
+    {
+      "averageClose": 55.8478,
+      "averageVolume": 2212948,
+      "closeGrowthRate": 1.68,
+      "volumeGrowthRate": -10.7,
+      "date": "2025-01-20"
+    },
+    {
+      "averageClose": 54.907,
+      "averageVolume": 1853710,
+      "closeGrowthRate": -1.68,
+      "volumeGrowthRate": -16.23,
+      "date": "2025-02-03"
+    },
+    {
+      "averageClose": 52.9567,
+      "averageVolume": 2052119,
+      "closeGrowthRate": -3.55,
+      "volumeGrowthRate": 10.7,
+      "date": "2025-02-17"
+    },
+    {
+      "averageClose": 48.101,
+      "averageVolume": 3172164,
+      "closeGrowthRate": -9.17,
+      "volumeGrowthRate": 54.58,
+      "date": "2025-03-03"
+    },
+    {
+      "averageClose": 47.395,
+      "averageVolume": 3039518,
+      "closeGrowthRate": -1.47,
+      "volumeGrowthRate": -4.18,
+      "date": "2025-03-17"
+    },
+    {
+      "averageClose": 44.23,
+      "averageVolume": 5172057,
+      "closeGrowthRate": -6.68,
+      "volumeGrowthRate": 70.16,
+      "date": "2025-03-31"
+    },
+    {
+      "averageClose": 43.7322,
+      "averageVolume": 2783410,
+      "closeGrowthRate": -1.13,
+      "volumeGrowthRate": -46.18,
+      "date": "2025-04-14"
+    },
+    {
+      "averageClose": 46.876,
+      "averageVolume": 2528718,
+      "closeGrowthRate": 7.19,
+      "volumeGrowthRate": -9.15,
+      "date": "2025-04-28"
+    },
+    {
+      "averageClose": 49.703,
+      "averageVolume": 2270383,
+      "closeGrowthRate": 6.03,
+      "volumeGrowthRate": -10.22,
+      "date": "2025-05-05"
+    },
+    {
+      "averageClose": 52.1611,
+      "averageVolume": 2451328,
+      "closeGrowthRate": 4.95,
+      "volumeGrowthRate": 7.97,
+      "date": "2025-05-19"
+    },
+    {
+      "averageClose": 53.027,
+      "averageVolume": 2368128,
+      "closeGrowthRate": 1.66,
+      "volumeGrowthRate": -3.39,
+      "date": "2025-06-02"
+    },
+    {
+      "averageClose": 53.514,
+      "averageVolume": 1653847,
+      "closeGrowthRate": 0.92,
+      "volumeGrowthRate": -30.16,
+      "date": "2025-06-16"
+    }
+  ],
+  "news": []
+}

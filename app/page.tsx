@@ -5,13 +5,13 @@ import { useStockData } from "@/hooks/use-stock-data"
 import { DashboardHeader } from "@/components/dashboard-header"
 import { StockOverview } from "@/components/stock-overview"
 import { StockCharts } from "@/components/stock-charts"
-import { StockDetails } from "@/components/stock-details"
-import { StockNews } from "@/components/stock-news"
+import { GrowthRates } from "@/components/growth-rates"
+import { PriceLevels } from "@/components/price-levels"
 
-const tickers = ["AAPL", "GOOGL", "TSLA", "NVDA", "QQQ", "SPY", "SCHG"]
+const tickers = ["QQQ", "SPY", "SCHG", 'TQQQ', 'MAGS']
 
 export default function StockDashboard() {
-  const [selectedTicker, setSelectedTicker] = useState("AAPL")
+  const [selectedTicker, setSelectedTicker] = useState("QQQ")
   const { stockData, loading } = useStockData(selectedTicker)
 
   if (loading || !stockData) {
@@ -35,8 +35,8 @@ export default function StockDashboard() {
       <main className="container mx-auto px-4 py-6 space-y-6">
         <StockOverview stockData={stockData} />
         <StockCharts stockData={stockData} selectedTicker={selectedTicker} />
-        <StockDetails stockData={stockData} />
-        <StockNews stockData={stockData} />
+        <GrowthRates weeklyData={stockData.weeklyData} monthlyData={stockData.monthlyData} biweeklyData={stockData.biweeklyData}/>
+        <PriceLevels currentPrice={stockData.price} />
       </main>
     </div>
   )
