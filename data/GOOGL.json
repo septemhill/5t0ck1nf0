@@ -1,0 +1,186 @@
+{
+  "name": "Alphabet Inc.",
+  "price": 142.56,
+  "change": -1.23,
+  "changePercent": -0.86,
+  "volume": "28.7M",
+  "marketCap": "1.78T",
+  "pe": 25.2,
+  "chartData": [
+    { "time": "09:30", "price": 143.8 },
+    { "time": "10:00", "price": 143.2 },
+    { "time": "10:30", "price": 142.9 },
+    { "time": "11:00", "price": 142.1 },
+    { "time": "11:30", "price": 142.8 },
+    { "time": "12:00", "price": 142.6 },
+    { "time": "12:30", "price": 141.9 },
+    { "time": "13:00", "price": 142.4 },
+    { "time": "13:30", "price": 141.7 },
+    { "time": "14:00", "price": 142.9 },
+    { "time": "14:30", "price": 142.1 },
+    { "time": "15:00", "price": 142.56 }
+  ],
+  "volumeData": [
+    { "time": "09:30", "volume": 5.2 },
+    { "time": "10:00", "volume": 7.1 },
+    { "time": "10:30", "volume": 6.8 },
+    { "time": "11:00", "volume": 9.2 },
+    { "time": "11:30", "volume": 4.9 },
+    { "time": "12:00", "volume": 3.4 },
+    { "time": "12:30", "volume": 8.7 },
+    { "time": "13:00", "volume": 6.3 },
+    { "time": "13:30", "volume": 11.5 },
+    { "time": "14:00", "volume": 9.8 },
+    { "time": "14:30", "volume": 12.4 },
+    { "time": "15:00", "volume": 15.6 }
+  ],
+  "monthlyData": [
+    {
+      "averageClose": 140.9,
+      "averageVolume": 32145678,
+      "closeGrowthRate": 0,
+      "volumeGrowthRate": 0,
+      "date": "2023-12"
+    },
+    {
+      "averageClose": 141.8,
+      "averageVolume": 35234567,
+      "closeGrowthRate": 0.64,
+      "volumeGrowthRate": 9.61,
+      "date": "2024-01"
+    },
+    {
+      "averageClose": 139.2,
+      "averageVolume": 38456789,
+      "closeGrowthRate": -1.83,
+      "volumeGrowthRate": 9.15,
+      "date": "2024-02"
+    },
+    {
+      "averageClose": 151.4,
+      "averageVolume": 42789012,
+      "closeGrowthRate": 8.77,
+      "volumeGrowthRate": 11.27,
+      "date": "2024-03"
+    },
+    {
+      "averageClose": 157.8,
+      "averageVolume": 39567890,
+      "closeGrowthRate": 4.23,
+      "volumeGrowthRate": -7.53,
+      "date": "2024-04"
+    },
+    {
+      "averageClose": 174.2,
+      "averageVolume": 45678901,
+      "closeGrowthRate": 10.39,
+      "volumeGrowthRate": 15.44,
+      "date": "2024-05"
+    },
+    {
+      "averageClose": 181.6,
+      "averageVolume": 41234567,
+      "closeGrowthRate": 4.25,
+      "volumeGrowthRate": -9.73,
+      "date": "2024-06"
+    },
+    {
+      "averageClose": 164.5,
+      "averageVolume": 48901234,
+      "closeGrowthRate": -9.42,
+      "volumeGrowthRate": 18.6,
+      "date": "2024-07"
+    },
+    {
+      "averageClose": 162.8,
+      "averageVolume": 44567890,
+      "closeGrowthRate": -1.03,
+      "volumeGrowthRate": -8.86,
+      "date": "2024-08"
+    },
+    {
+      "averageClose": 153.4,
+      "averageVolume": 47890123,
+      "closeGrowthRate": -5.77,
+      "volumeGrowthRate": 7.46,
+      "date": "2024-09"
+    },
+    {
+      "averageClose": 166.8,
+      "averageVolume": 43456789,
+      "closeGrowthRate": 8.73,
+      "volumeGrowthRate": -9.26,
+      "date": "2024-10"
+    },
+    {
+      "averageClose": 171.2,
+      "averageVolume": 40123456,
+      "closeGrowthRate": 2.64,
+      "volumeGrowthRate": -7.67,
+      "date": "2024-11"
+    },
+    {
+      "averageClose": 142.56,
+      "averageVolume": 52789012,
+      "closeGrowthRate": -16.73,
+      "volumeGrowthRate": 31.58,
+      "date": "2024-12"
+    }
+  ],
+  "weeklyData": [
+    {
+      "averageClose": 145.2,
+      "averageVolume": 32145678,
+      "closeGrowthRate": -2.15,
+      "volumeGrowthRate": 8.45,
+      "date": "2024-12-02"
+    },
+    {
+      "averageClose": 143.8,
+      "averageVolume": 35234567,
+      "closeGrowthRate": -0.96,
+      "volumeGrowthRate": 9.61,
+      "date": "2024-12-09"
+    },
+    {
+      "averageClose": 141.9,
+      "averageVolume": 38456789,
+      "closeGrowthRate": -1.32,
+      "volumeGrowthRate": 9.15,
+      "date": "2024-12-16"
+    },
+    {
+      "averageClose": 142.56,
+      "averageVolume": 42789012,
+      "closeGrowthRate": 0.47,
+      "volumeGrowthRate": 11.27,
+      "date": "2024-12-23"
+    }
+  ],
+  "biweeklyData": [
+    {
+      "averageClose": 144.5,
+      "averageVolume": 33690122,
+      "closeGrowthRate": -1.56,
+      "volumeGrowthRate": 9.03,
+      "date": "2024-12-09"
+    },
+    {
+      "averageClose": 142.23,
+      "averageVolume": 40622900,
+      "closeGrowthRate": -1.57,
+      "volumeGrowthRate": 20.58,
+      "date": "2024-12-23"
+    }
+  ],
+  "news": [
+    { "title": "Google Cloud Revenue Grows 35% Year-over-Year", "time": "1 hour ago", "source": "CNBC" },
+    {
+      "title": "Alphabet Announces Major AI Breakthrough in Search",
+      "time": "3 hours ago",
+      "source": "Wall Street Journal"
+    },
+    { "title": "YouTube Shorts Reaches 2 Billion Monthly Users", "time": "6 hours ago", "source": "The Verge" },
+    { "title": "Google Faces New Antitrust Challenges in Europe", "time": "1 day ago", "source": "Financial Times" }
+  ]
+}
