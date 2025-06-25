@@ -11,8 +11,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/stock-dashboard' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/stock-dashboard/' : '',
+  basePath: process.env.NODE_ENV === 'production' ? '/5t0ck1nf0' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/5t0ck1nf0/' : '',
 }
 
 export default nextConfig
