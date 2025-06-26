@@ -1,5 +1,5 @@
 {
-  "price": 74.7,
+  "currentPrice": 78.48,
   "monthlyData": [
     {
       "averageClose": 87.38,
@@ -1288,10 +1288,10 @@
       "date": "2025-05"
     },
     {
-      "averageClose": 73.96,
-      "averageVolume": 73098126,
-      "closeGrowthRate": 12.47,
-      "volumeGrowthRate": -15.01,
+      "averageClose": 74.47,
+      "averageVolume": 70781280,
+      "closeGrowthRate": 13.25,
+      "volumeGrowthRate": -17.7,
       "date": "2025-06"
     }
   ],
@@ -6909,10 +6909,10 @@
       "date": "2025-06-16"
     },
     {
-      "averageClose": 74.7,
-      "averageVolume": 83786355,
-      "closeGrowthRate": 1.2,
-      "volumeGrowthRate": 20.1,
+      "averageClose": 77.0933,
+      "averageVolume": 63532074,
+      "closeGrowthRate": 4.44,
+      "volumeGrowthRate": -8.93,
       "date": "2025-06-23"
     }
   ],
@@ -9947,10 +9947,10 @@
       "date": "2025-06-02"
     },
     {
-      "averageClose": 73.994,
-      "averageVolume": 72567590,
-      "closeGrowthRate": 0.08,
-      "volumeGrowthRate": -1.08,
+      "averageClose": 75.2214,
+      "averageVolume": 67092545,
+      "closeGrowthRate": 1.74,
+      "volumeGrowthRate": -8.55,
       "date": "2025-06-16"
     }
   ],
