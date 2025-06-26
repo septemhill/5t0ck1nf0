@@ -42,7 +42,7 @@ interface Statistics {
 }
 
 interface SymbolData {
-    currentPrice: number;
+    price: number;
     monthlyData: StatisticsDate[];
     weeklyData: StatisticsDate[];
     biweeklyData: StatisticsDate[];
@@ -93,7 +93,7 @@ async function fetchData() {
             // console.log(`Biweekly Data for ${symbol}:`, biweeklyDataList);
 
             m[symbol] = {
-                currentPrice: currentPrice(dailyData),
+                price: currentPrice(dailyData),
                 monthlyData: monthlyDataList,
                 weeklyData: weeklyDataList,
                 biweeklyData: biweeklyDataList,
