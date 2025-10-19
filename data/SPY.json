@@ -2178,9 +2178,9 @@
     },
     {
       "averageClose": 666.18,
-      "averageVolume": 82076469,
+      "averageVolume": 82331743,
       "closeGrowthRate": 1.42,
-      "volumeGrowthRate": 7.39,
+      "volumeGrowthRate": 7.73,
       "date": "2025-10"
     }
   ],
@@ -11663,9 +11663,9 @@
     },
     {
       "averageClose": 663.094,
-      "averageVolume": 90757657,
+      "averageVolume": 91421370,
       "closeGrowthRate": -0.68,
-      "volumeGrowthRate": 9.8,
+      "volumeGrowthRate": 10.61,
       "date": "2025-10-13"
     }
   ],
@@ -16787,9 +16787,9 @@
     },
     {
       "averageClose": 665.349,
-      "averageVolume": 86705838,
+      "averageVolume": 87037695,
       "closeGrowthRate": -0.3,
-      "volumeGrowthRate": 20.52,
+      "volumeGrowthRate": 20.98,
       "date": "2025-10-06"
     }
   ],
